@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registraion</title>
+</head>
+<style>
+  .a{
+    height:350px;
+    width:550px;
+    border:5px solid rgb(184, 111, 111);
+    margin: auto;
+    display: flex;
+    background-color:rgb(243, 152, 119);
+    box-shadow: 4px 4px 4px;
+    margin-top: 20px;
+  }
+  .b{
+    height:350px;
+    width:275px;
+    border:2px solid rgb(65, 4, 4) ;
+    background-image:url(sky.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  
+
+  input{
+    display: block;
+    height: 30px;
+    width: 200px;
+    border: hidden;
+    border-bottom: 2px solid black;
+    background-color:rgb(243, 152, 119);
+    color: rgb(0, 0, 0);
+    margin-left: 8px;
+  }
+  select{
+    height: 30px;
+    width: 200px;
+    border: hidden;
+    border-bottom: 2px solid black;
+    background-color:rgb(243, 152, 119);
+    color: black ;
+    margin-left: 8px;
+  }
+  button{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(83, 226, 26);
+    color: white;
+    border-radius: 20px;
+     margin: auto;
+     text-align: center;
+     margin-left: 75px;
+     margin-top: 10px;
+      }
+
+</style>
+<body>
+    <div class="a">
+        <div class="b">
+        </div>
+        <div><h1 style="color: rgb(65, 41, 19);margin-left: 8px;">regisration info</h1>
+          <form action="">
+            <input type="text" placeholder="Name";>
+            <input type="text" placeholder="address">
+            <input type="password" placeholder="zip code">
+            <select name="text" id="state">
+              <option value="">state</option>
+              <option value="">kerala</option>
+              <option value="">tamil nadu</option>
+              <option value="">karnadaka</option>
+              <input type="text" placeholder="username(6-8charecters)">
+              <input type="text" placeholder="E-mail">
+              <button>submit</button>
+            </select>
+          </form>
+        </div>
+    </div>
+</body>
+</html>

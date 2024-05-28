@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footall</title>
+</head>
+<body>
+   <h1 style="text-align: center; color: rgb(5, 40, 71); background-color: rgb(167, 191, 212);" > football</h1>
+   <img src="football.jpg"alt="footall"style="margin:auto;display:block">
+   <p>Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used. Sports commonly called football include association football (known as soccer in Australia, Canada, South Africa, the United States, and sometimes in Ireland and New Zealand); Australian rules football; Gaelic football; gridiron football (specifically American football, arena football, or Canadian football); International rules football; rugby league football; and rugby union football.[1] These various forms of football share, to varying degrees, common origins and are known as "football codes".</p>
+   <a href="https://www.google.com/search?sca_esv=4a188d92a63a9538&rlz=1C1YTUH_enIN1102IN1109&sxsrf=ADLYWIIlN1hr1Nf5NfU0VZeJJX3NPJBKvw:1716350380297&q=football&uds=ADvngMg-4GP2W3m-mNLHfhBstn78Q4MY9sofisTJ28Lx5V3IyuQ2Y6UFCTljUtCSP2LSk0zEYIZvCvH-2htqsUJdcJ7YGFrD-XlC0cii-lgdvOAUogci18KfXQdgKU2mb47butMV2n4oEy-3REP-_3X5L4wuVMYrUoPFY8Q14frSVYJ5XCKzowtddXpU2dbDf0NAJD17Udnbk1bqf9Ppf-bR0jF3cTf2tZDilftzrRKM-iNQG49IfV8v89PZdcX521MATbcD8-Rnm3Q6uarsjImYwKhLEP1IQRCKpmNCVUgctak7PKD2smZPRMVirmwZ4lXu5e79ypk3&udm=2&prmd=invsmbtz&sa=X&ved=2ahUKEwjq7ei1r6CGAxW2yzgGHRdZB4AQtKgLegQIERAB&biw=988&bih=622&dpr=1#vhid=4JWVLVebMyIQAM&vssid=mosaic">football</a>
+</body>
+</html>

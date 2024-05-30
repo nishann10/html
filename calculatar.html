@@ -3,65 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculator</title>
+    <title>Document</title>
 </head>
 <style>
-    .a{
-        display:grid;
-        height: 500px;
-        width: 400px;
-      background-color: rgb(36, 59, 39); 
-      border: 2px solid black;
-      margin: auto;
-      margin-top: 5%;
-      
-      
-    }
-    .b{
-        height: 50px;
-        width: 380px;
-        background-color: rgb(88, 148, 49);
-        margin: auto;
-        margin-top: 5%;
-        box-shadow: -3px -3px 2px white inset;
-    }
-    .c{
-      display: grid;
-      grid-template-columns: auto; 
-       border: 1px solid black;
-       border-bottom: 20px;
-       background-color: rgb(185, 54, 72);
-       height: 50px;
-       width: 60px;
-       margin-bottom: 300px;
-       margin-left: 10px;
-       text-align: center;
-       font-size: 35px;
+input{
+    height: 40px;
+    width: 370px;
+    background-color: rgb(90, 218, 51);
     
-    }
-    .d{
-       
-       
-       background-color: aquamarine;
-       height: 50px;
-       width: 60px;
-
-
-
-
-    }
+    margin-top: 30px;
+    margin-left: 10px;
+    box-shadow: inset -4px -4px 3px white;
+}
+button{
+    height: 50px;
+    width: 90px;
+    background-color: black;
+    color: white;
     
-   
+    border-radius: 5px;
+    text-align: center;
+    font-size: 40px;
+
+    
+    
+}
+.a{ 
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.b{
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 8px;
+    
+}
+.c{
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 8px
+
+}
+.d{
+    padding: 5px;
+}
+.e{
+    padding: 5px;
+}
+.f{
+    padding: 5px;
+}
+    
+
+
 
 </style>
-
 <body>
-    <div class="a">
-        <div class="b"> 
+    <div style="width: 400px;height: 480px; margin: auto;background-color: rgb(25, 63, 78);">
+        <div>
+            <input type="text">
         </div>
-        <div class="c">c</div>
-        <div class="d">l</div>
-
-    </div>  
+        <div class="a">
+            <div class="b">
+                <button>c</button>
+                <button>d</button>
+                <button></button>
+                <button></button>
+            </div>
+            <div class="c">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+            <div style="display: flex;">
+                <div>
+                    <div class="d">
+                        <button></button>
+                        <button></button>
+                        <button></button>
+                    </div>
+                    <div class="e">
+                        <button></button>
+                        <button></button>
+                        <button></button>
+                    </div>
+                </div>
+                <div>
+                    <button style="height: 140px;width: 90px;"></button>
+                </div>
+            </div>
+            <div class="f">
+                <button></button>
+                <button></button>
+                <button style="width:185px ;height: 50px;"></button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

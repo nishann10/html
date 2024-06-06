@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 3d</title>
+</head>
+<style>
+.a{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: linear-gradient(blue,green,yellow,red,rgb(75, 12, 75));
+    margin: auto;
+    margin-top: 80px;
+    transition:width 2s,height 2s,transform 2s;
+}
+.a:hover{
+    transform: rotate(180deg);
+}
+.b {
+            height: 100px;
+            width: 300px;
+            background-color: red;
+            background-image: linear-gradient(rgb(255, 0, 221), rgb(43, 21, 42));
+            margin-top: 100px;
+            position: relative; 
+            animation-fill-mode: forwards;
+            animation-name: mymove;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            animation-duration: 2s; 
+        }
+        @keyframes mymove {
+            0%{ left: 0px; top: 0px; }
+            50%{ left: 400px; top: 0px; }
+            100%{left: 0px; top: 0px;}
+        }
+
+
+
+</style>
+
+<body><h1 style="text-shadow: 3px 3px 4px red;font-size: 50px;text-align: center;">3D effect...</h1>
+    <div class="a"></div>
+    <div class="b"></div>
+</body>
+</html>
